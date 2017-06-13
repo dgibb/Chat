@@ -11,7 +11,7 @@ const connections = [];
 const users = [];
 let offset = Math.floor(Math.random() * 360);
 
-server.listen(process.env.PORT || 8081);
+server.listen(process.env.PORT || 5000);
 
 console.log('server running...');
 
