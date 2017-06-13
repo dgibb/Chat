@@ -2,8 +2,8 @@ const path = require('path');
 const webpack = require('webpack');
 
 module.exports = {
-  entry: './Client/chat.js',
-  output: { path: __dirname + '/Client', filename: 'chat.min.js' },
+  entry: './Client/app.js',
+  output: { path: __dirname + '/Client', filename: 'app.min.js' },
   watch: true,
 
   module: {
